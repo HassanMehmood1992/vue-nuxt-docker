@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+#   nuxt:
+#     build: .
+#     container_name: vuevixens-website
+
+#   nginx:
+#     image: nginx:1.13.7-alpine
+#     container_name: vuevixens-nginx
+#     volumes:
+#       - .:/etc/nginx/conf.d
+#     depends_on:
+#       - nuxt
+      
+    frontend:
+
+    build:
+        dockerfile: Dockerfile
+    volumes:
+        - ./frontend:/app
+        - /app/node_modules
+        - /app/.next

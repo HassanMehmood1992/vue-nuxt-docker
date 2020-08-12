@@ -11,7 +11,7 @@
           >
             <v-card-title>
               <span class="font-weight-bold text-h3  primary-color">
-                Totals</span
+                Totalsss</span
               >
             </v-card-title>
           </v-img>
