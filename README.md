@@ -1,3 +1,7 @@
+## Dockerizing Vue Application
+
+Setup docker for covid vue application. Added a working docker file and other experimental configs.
+
 # covid-19
 
 ## Build Setup
